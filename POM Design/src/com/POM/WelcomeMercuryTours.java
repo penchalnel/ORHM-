@@ -1,0 +1,47 @@
+package com.POM;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class WelcomeMercuryTours {
+	@FindBy(linkText="SIGN-ON")
+	WebElement SignON;
+	public void SignOn() {
+		SignON.click();
+	}
+	
+	@FindBy(linkText="REGISTER")
+	WebElement Register;
+	public void register() {
+		Register.click();
+	}
+	@FindBy(name="userName")
+	WebElement UserName;
+//	public void username() {
+//		UserName.click();
+	//}
+	@FindBy(name="password")
+	WebElement Password;
+//	public void Password() {
+//		Password.click();
+//	}
+	@FindBy(name="login")
+	WebElement Submit;
+//	public void submit() {
+//		Submit.click();
+//	}
+	
+
+	public void logIn(String Username,String password) {
+		UserName.clear();		
+UserName.sendKeys(Username);
+Password.sendKeys(password);
+Submit.click();
+		
+		
+		
+	
+	}
+	
+
+}

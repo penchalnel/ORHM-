@@ -1,0 +1,26 @@
+package com.BasicJava;
+
+public class Ifelseconditions {
+
+	public static void main(String[] args) {
+     int a=40;
+     int b=20;
+     int c=60;
+	if(a>b&a>c)
+	{
+		System.out.print("a is greater");
+	}
+	else
+		if(a>c)
+	{
+		System.out.print("b is greater");
+	}
+     else {
+		System.out.println("c is greater");
+	}
+		
+		}
+	}
+	
+
+

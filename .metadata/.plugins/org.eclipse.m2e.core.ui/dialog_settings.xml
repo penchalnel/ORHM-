@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="443" key="x"/>
+		<item value="12" key="y"/>
+		<item value="529" key="height"/>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
+		<list key="catalogUrl">
+			<item value="http://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\new\eclipse-workspace\My.MavenProject\pom.xml"/>
+			<item value="C:\Users\new\eclipse-workspace\MavenProject123\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.Testing.MyMavenTest"/>
+			<item value="com.MyProject"/>
+			<item value="MySeleniumSessons.MyTestProject"/>
+			<item value="MySeleniumSessons.My.MavenProject"/>
+			<item value="MySeleniumSessons.MyMaven"/>
+			<item value="MySeleniumSessons.MavenProject123"/>
+			<item value="com.Testing.MyMavenProject12"/>
+			<item value="com.Testing.MavenProjectFile"/>
+			<item value="com.MyProjectMaven"/>
+			<item value="com.Testing.MyMavenFileProject"/>
+			<item value="com.Testing.MyMavenproject1"/>
+			<item value="com.Testing.MavenProject"/>
+			<item value="com.Testing.MyMavenProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.Testing"/>
+			<item value="com"/>
+			<item value="MySeleniumSessons"/>
+		</list>
+		<list key="artifactId">
+			<item value="MyMavenTest"/>
+			<item value="MyProject"/>
+			<item value="MyTestProject"/>
+			<item value="My.MavenProject"/>
+			<item value="MyMaven"/>
+			<item value="MavenProject123"/>
+			<item value="MyMavenProject12"/>
+			<item value="MavenProjectFile"/>
+			<item value="MyProjectMaven"/>
+			<item value="MyMavenFileProject"/>
+			<item value="MyMavenproject1"/>
+			<item value="MavenProject"/>
+			<item value="MyMavenProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

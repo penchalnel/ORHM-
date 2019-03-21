@@ -1,0 +1,9 @@
+package com.GRID;
+
+import org.testng.annotations.Test;
+
+public class NewParameterTest {
+  @Test
+  public void f() {
+  }
+}

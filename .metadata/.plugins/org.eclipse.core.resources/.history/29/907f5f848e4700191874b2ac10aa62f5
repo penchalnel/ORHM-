@@ -1,0 +1,53 @@
+package com.NewTours_LoginFunctionality;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NewTours_Loginfunctionality_ExcelOperations {
+
+	public static void main(String[] args) throws IOException {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\new\\eclipse-workspace\\BrowserAutomation\\DriverFiles\\chromedriver.exe");
+		WebDriver driver =null;
+		String url="http://www.newtours.demoaut.com/";
+		driver = new ChromeDriver();
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		FileInputStream file=new FileInputStream("./BrowserAutomation/src/com/ExcelFiles/NewTours_Multiple Testdata.xlsx");
+		XSSFWorkbook Workbook=new XSSFWorkbook(file);
+		XSSFSheet Sheet=Workbook.getSheet("Sheet1");
+int rowcount=Sheet.getLastRowNum();
+
+for(int k=1;k<=rowcount;k++) {
+	Row r=Sheet.getRow(k);
+	//cell c=r.getCell(k).getStringCellValue();
+	
+	Cell usernamecell=r.getCell(0);
+	Cell passwordcell=r.getCell(1);
+	
+	String Username=usernamecell.getStringCellValue();
+	
+	String Password=passwordcell.getStringCellValue();
+	
+	driver.findElement(By.linkText("SIGN-ON")).click();
+	WebElement UsernameElement=driver.findElement(By.name("userName"));
+	UsernameElement.sendKeys(Username);
+	WebElement PasswordElement=driver.findElement(By.name("password"));
+	PasswordElement.sendKeys(Password);
+	
+}
+	}
+
+}

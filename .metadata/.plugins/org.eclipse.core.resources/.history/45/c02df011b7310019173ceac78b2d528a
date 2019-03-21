@@ -1,0 +1,29 @@
+package com.BasicJava;
+
+public class BreakKeyword {
+
+	public static void main(String[] args) {
+		
+		try 
+		{
+			int a=20;
+			int b=10;
+			int c;
+			c=a/b;
+			System.out.println("The Value of C is: "+c);
+			
+		}
+		catch(Exception e)
+		{
+			System.out.println("Cannot Perform The Operation a/b");
+			System.out.println("The Excution is: "+e);
+		}
+		 
+		
+		
+		
+		
+
+	}
+
+}

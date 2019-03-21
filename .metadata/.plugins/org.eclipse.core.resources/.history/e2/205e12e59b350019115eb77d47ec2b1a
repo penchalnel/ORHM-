@@ -1,0 +1,20 @@
+package com.IdentifyingTitleJava;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class IdentifyingTitle_Facebook {
+
+	public static void main(String[] args) {
+		FirefoxDriver driver=new FirefoxDriver();
+		driver.get("http://facebook.com");
+		driver.navigate().to("http://facebook.com");
+		driver.get("http;//google.com");
+		String expected_Title="Facebook-Login or SignUp";
+		System.out.println("The expected Title of facebook is:"+expected_Title);
+		String actual_Title=driver.getTitle();
+		System.out.println("The expected Title of facebook is:"+actual_Title);
+		driver.quit();
+
+	}
+
+}

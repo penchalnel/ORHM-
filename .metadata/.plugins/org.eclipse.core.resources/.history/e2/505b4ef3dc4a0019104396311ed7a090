@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="on Firefox">
+  <parameter name = "Browser" value="firefox"/> 
+    <classes>
+      <class name="com.GRID.OHRM_LogInTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

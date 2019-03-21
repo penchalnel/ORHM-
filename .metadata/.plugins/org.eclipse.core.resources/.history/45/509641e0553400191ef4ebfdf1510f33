@@ -1,0 +1,13 @@
+package com.BasicJava;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Test t=new Test();
+		int[] x;
+		System.out.println(t.x);
+		System.out.println(t.x[0]);
+		
+	}
+
+}

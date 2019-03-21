@@ -1,0 +1,10 @@
+package com.BrowserAutomation;
+
+public class FirefoxBrowser {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

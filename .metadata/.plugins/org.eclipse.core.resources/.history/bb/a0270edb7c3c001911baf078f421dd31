@@ -1,0 +1,35 @@
+package com.xpath;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class NewToursApplication_Vacations_BacktoHome_PerformClick {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\new\\eclipse-workspace\\BrowserAutomation\\DriverFiles\\chromedriver.exe");
+		WebDriver driver = null;
+		driver=new ChromeDriver();
+	
+		String url="http://newtours.demoaut.com/";
+		driver.get(url);
+		driver.manage().window().maximize();
+		//Thread.sleep(10000);
+		TimeUnit sec = null;
+		driver.findElement(By.linkText("Vacations")).click();
+		
+		driver.findElement(By.xpath(/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[4]/td/a/img));
+		
+		driver.manage().timeouts().implicitlyWait(10, sec);
+
+		//<img src="/images/forms/home.gif" width="118" height="23" border="0">
+		
+		///html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[4]/td/a/img
+		
+		//<b> Note: Your user name is penchalaiah.</b>
+		///html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[3]/td/p[3]/a/font/b
+	}
+
+}

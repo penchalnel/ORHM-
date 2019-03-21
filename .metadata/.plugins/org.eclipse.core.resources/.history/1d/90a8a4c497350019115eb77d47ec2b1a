@@ -1,0 +1,27 @@
+package com.identifyingTitle.Java;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class IdentifyingTitleFacebook {
+
+
+	public static void main(String[] args) {
+	System.setProperty("Webdrive.Chrome.driver","C:\\Users\\new\\eclipse-workspace\\BrowserAutomation\\DriverFiles\\chromedriver.exe");
+			ChromeDriver d=new ChromeDriver();
+			d.get("http://facebook.com");
+			d.navigate().to("http://facebook.com");
+			String expectedTitle="Facebook-Log in or Signup";
+			System.out.println("The expected Title of facebook is:"+expectedTitle);
+			String actualTitle="d.getTitle()";
+			System.out.println("The tittle of facebook Homepage is:"+actualTitle);
+			
+			d.quit();
+
+		}
+
+	}
+
+
+	
+
+

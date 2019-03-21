@@ -1,0 +1,11 @@
+package com.BasicJava;
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+		int x=0Xbeer;
+		System.out.println(x);
+
+	}
+
+}

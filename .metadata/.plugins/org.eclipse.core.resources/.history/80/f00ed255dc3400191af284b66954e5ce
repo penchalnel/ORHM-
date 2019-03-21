@@ -1,0 +1,11 @@
+package com.BasicJava;
+
+public class Datatypes {
+
+	public static void main(String[] args) {
+		char ch=null;
+		System.out.println(ch);
+
+	}
+
+}

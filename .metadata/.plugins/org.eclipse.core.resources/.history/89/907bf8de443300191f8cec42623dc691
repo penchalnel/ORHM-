@@ -1,0 +1,10 @@
+package com.BrowserAutomation;
+
+public class ChromeBrowser {
+
+	public static void main(String[] args) {
+		System.setProperty("Webdriver.chrome.driver",  "/driverFiles/Chromedriver.exe");
+
+	}
+
+}

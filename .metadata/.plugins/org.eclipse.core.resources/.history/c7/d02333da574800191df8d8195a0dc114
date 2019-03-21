@@ -1,0 +1,21 @@
+package com.OHRM;
+
+public class OHRM_LogInTest {
+
+	
+
+		@Given("^Open Chrome browser and navigate to OrangeHRM Application Url$")
+		public void Open_Chrome_browser_and_navigate_to_OrangeHRM_Application_Url() 
+		
+
+		@When("^User enter Valid Username and valid Password and click on Login button$")
+		public void User_enter_Valid_Username_and_valid_Password_and_click_on_Login_button() 
+
+		@Then("^User should be able to Successfully login to OrangeHRM and Close the application$")
+		public void User_should_be_able_to_Successfully_login_to_OrangeHRM_and_Close_the_application()
+
+	
+	
+	
+	
+}

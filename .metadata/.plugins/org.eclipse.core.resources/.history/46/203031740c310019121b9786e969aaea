@@ -1,0 +1,22 @@
+package com.BasicJava;
+
+public class Ifelseif {
+
+	public static void main(String[] args) {
+		int x=10;
+		if(x==20) {
+		System.out.println("Value of x is 20");
+		}
+		elseif(x==30)
+		{
+	System.out.println("Value of x is 30");
+		}
+		elseif(x==40){
+		System.out.println("Value of x is 40");
+		}
+		else {
+		System.out.println("what is the value of x");
+		}
+	}
+
+}

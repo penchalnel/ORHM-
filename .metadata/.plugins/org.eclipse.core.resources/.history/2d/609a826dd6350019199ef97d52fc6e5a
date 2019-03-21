@@ -1,0 +1,16 @@
+package com.CurrentURLofFacebook.Java;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class ValidatingURL_Facebook {
+
+	public static void main(String[] args) {
+		System.setProperty("WebDriver.gecko.driver","C:\\Users\\new\\eclipse-workspace\\BrowserAutomation\\DriverFiles\\geckodriver.exe");
+		WebDriver driver=null;
+		driver=new FirefoxDriver();
+		String url="http://facebook.com";
+
+	}
+
+}

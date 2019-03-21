@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OrangeHRM" parallel="tests">
+<test name="on Firefox">
+<parameter name="Browser" value="firefox"/>
+<classes>
+<class name="com.GRID.OHRM_LogInTest"/>
+</classes>
+</test>
+<test name="on Chrome">
+<parameter name="Browser" value="Chrome"/>
+<classes>
+<class name="com.GRID.OHRM_LogInTest"/>
+</classes>
+</test>
+</suite>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name = "myName" value="manisha"/> 
+    <classes>
+      <class name="com.GRID.NewParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+

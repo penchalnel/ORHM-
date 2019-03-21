@@ -1,0 +1,23 @@
+package com.BasicJava;
+
+public class BreakKeyword {
+
+	public static void main(String[] args) {
+		Object a[]=new Object[3];
+		
+		 a[0]= 10;
+		 a[1]="Hai Bala";
+		 a[2]=12.890;
+		
+		for(Object b:a)
+		{
+			System.out.println(b);
+		}
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+<Suite name="OrangeHRM" parallel="tests">
+<test name="on Firefox">
+<parameter name="Browser" value="firefox"/>
+<Classes>
+<Class name="com.GRID.OHRM_LogInTest"/>
+</Classes>
+</test>
+<test name="on Chrome">
+<parameter name="Browser" value="Chrome"/>
+<Classes>
+<Class name="com.GRID.OHRM_LogInTest"/>
+</Classes>
+</test>
+</Suite>
+
+

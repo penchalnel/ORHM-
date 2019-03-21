@@ -1,0 +1,23 @@
+package com.identifyingTitle.Java;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class IdentifyingTitleFacebook {
+
+	public static void main(String[] args) {
+		
+			System.setProperty("Webdriver.gecko.driver","C:\\Users\\new\\eclipse-workspace\\BrowserAutomation\\DriverFiles\\geckodriver.exe");
+			FirefoxDriver d=new FirefoxDriver();
+			d.get("http://facebook.com");
+			d.navigate().to("http://facebook.com");
+
+			d.close();
+
+		}
+
+	}
+
+
+	
+
+

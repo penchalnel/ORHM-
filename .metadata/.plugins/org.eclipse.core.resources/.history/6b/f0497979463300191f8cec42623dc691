@@ -1,0 +1,11 @@
+package com.BrowserAutomation;
+
+public class FirefoxBrowser {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\new\\eclipse-workspace\\JAVA\\driveFiles\\geckodriver.exe");
+		FirefoxDriver driver=new FirefoxDriver();c
+
+	}
+
+}
